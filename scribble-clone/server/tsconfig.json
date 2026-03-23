@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // Environment Settings
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    // Automatically include Node types
+    "types": [
+      "node"
+    ],
+    // Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    // Stricter Typechecking Options
+    "strict": true,
+    // Recommended Options
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
